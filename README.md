@@ -32,7 +32,7 @@ No HTML, é importante usar o atributo `alt` para fornecer uma **descrição tex
 
 Exemplo:
 ´´´html
-<img src="imagem.jpg" alt="Descrição da imagem">
+<img src="img/claudeny.png" alt="Descrição da imagem">
 
 ### 7. Acessar a Developer Tools (Ferramentas para Desenvolvedores) de um Navegador 🔍
 As **Ferramentas para Desenvolvedores** são essenciais para inspecionar, depurar e entender o funcionamento do código HTML, CSS e JavaScript em tempo real no navegador.
