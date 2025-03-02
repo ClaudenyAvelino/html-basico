@@ -31,7 +31,7 @@ A declaração `<!DOCTYPE html>` informa ao navegador que o documento é um arqu
 No HTML, é importante usar o atributo `alt` para fornecer uma **descrição textual** de uma imagem. Isso não só ajuda na **acessibilidade** para pessoas com deficiências visuais, mas também melhora o SEO da página.
 
 Exemplo:
-```html
+´´´html
 <img src="imagem.jpg" alt="Descrição da imagem">
 
 ### 7. Acessar a Developer Tools (Ferramentas para Desenvolvedores) de um Navegador 🔍
