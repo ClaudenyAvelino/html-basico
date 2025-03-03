@@ -1,7 +1,8 @@
-body {
+body{
     background-color: #000000;
     color: #F6F6F6;
 }
-strong{
+
+.titulo-destaque{
     color: #22D4FD;
 }
