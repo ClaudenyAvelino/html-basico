@@ -17,10 +17,10 @@ body{
 }
 
 .apresentacao {
-    margin:10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin:10%;
 }
 
 .apresentacao__conteudo{
@@ -35,4 +35,9 @@ body{
 .apresentacao__conteudo__texto{
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
 }
