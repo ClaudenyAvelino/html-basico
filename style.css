@@ -17,6 +17,7 @@ body{
 }
 
 .apresentacao {
+    margin-top: 1%;
     margin: 10% 15%;
     display: flex;
     align-items: center;
@@ -43,7 +44,11 @@ body{
 
 .apresentacao__links{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    font-family: 'Krona One', sans-serif;
 }
 
 .apresentacao__links__link {
@@ -57,4 +62,8 @@ body{
     text-decoration: none;
     color: #000000;
     font-family: 'Montserrat', sans-serif;
+}
+img{
+    padding-top: 1%;
+    border-radius: 1000px;
 }
