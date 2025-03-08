@@ -60,6 +60,9 @@ body{
 
 .apresentacao__links__link {
     /* background-color: #22D4FD; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #22D4FD;
     width: 378px;
     text-align: center;
