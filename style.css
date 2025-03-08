@@ -75,6 +75,10 @@ body{
     font-family: 'Montserrat', sans-serif;
    
 }
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
+}
 img{
     padding-top: 1%;
     border-radius: 1000px;
