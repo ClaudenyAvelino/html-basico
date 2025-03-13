@@ -54,7 +54,7 @@ body{
 }
 
 .apresentacao__conteudo__texto{
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -78,7 +78,7 @@ body{
     /* background-color: #22D4FD; */
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 50px;
     border: 2px solid #22D4FD;
     width: 378px;
     text-align: center;
@@ -96,10 +96,10 @@ body{
     background-color: #272727;
     width: 400px;
 }
-img{
+/* img{
     padding-top: 1%;
     border-radius: 1000px;
-}
+} */
 
 .rodape {
     padding: 24px;
