@@ -83,16 +83,14 @@ body{
     padding: 21.5px 0;
     text-decoration: none;
     color: var(--cor-secundaria);
-    font-family: var(--font-secundaria);
+    font-family: var(--fonte-secundaria);
 }
 .apresentacao__links__link:hover{
     background-color: var(--cor-hover);
 }
-
 .apresentacao__imagem{
     width: 50%;
 }
-
 .rodape{
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
@@ -101,4 +99,10 @@ body{
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
 }
