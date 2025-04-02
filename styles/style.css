@@ -9,115 +9,193 @@
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* Aplicado no elemento raiz para evitar problemas com box model */
 }
 
-body{
-    box-sizing: border-box;
+body {
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria); /* Define a fonte secundária como padrão */
 }
-.cabecalho{
-    padding: 2% 0% 0% 15%;
+
+.cabecalho {
+    padding: 2rem;  /* Espaçamento mais consistente */
+    text-align: center; /* Centraliza o menu em telas pequenas */
 }
-.cabecalho__menu{
+
+.cabecalho__menu {
     display: flex;
-    gap: 80px;
+    flex-direction: column; /* Empilha os itens do menu verticalmente em telas pequenas */
+    gap: 1rem; 
 }
-.cabecalho__menu__link{
-    font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+
+.cabecalho__menu__link {
+    font-size: 1.2rem; /* Tamanho de fonte menor para mobile */
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
 }
-.apresentacao{
-    padding: 5% 15%;
+
+.apresentacao {
+    padding: 2rem;
     display: flex;
+    flex-direction: column-reverse; /* Imagem primeiro, depois conteúdo em mobile */
     align-items: center;
-    justify-content: space-between;
-    gap: 82px;
-}
-.apresentacao__conteudo{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+    gap: 2rem;
 }
 
-.apresentacao__conteudo__titulo{
-    font-size: 2.25rem;
+.apresentacao__conteudo {
+    width: 100%; /* Ocupa toda a largura em mobile */
+    text-align: center; /* Centraliza o texto */
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 1.5rem; /* Tamanho de fonte menor para mobile */
     font-family: var(--fonte-primaria);
-}
-.titulo-destaque{
-    color: var(--cor-terciaria);
-}
-.apresentacao__conteudo__texto{
-    font-size: 1.5rem;
-    font-family: var(--fonte-secundaria);
+    margin-bottom: 1rem;
 }
 
-.apresentacao__links{
+.apresentacao__conteudo__texto {
+    font-size: 1rem; /* Tamanho de fonte menor para mobile */
+    line-height: 1.5; /* Melhor legibilidade */
+}
+
+.apresentacao__links {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    gap: 32px;
+    gap: 1rem;
+    margin-top: 2rem;
 }
-.apresentacao__links__subtitulo{
+
+.apresentacao__links__subtitulo {
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
-.apresentacao__links__navegacao{
+
+
+.apresentacao__links__navegacao {
     display: flex;
+    align-items: center; /* Alinha o ícone e texto verticalmente */
     justify-content: center;
-    gap: 16px;
+    gap: 0.5rem;
     border: 2px solid var(--cor-terciaria);
-    width: 50%;
-    text-align: center;
+    width: 100%; /* Ocupa a largura total do container em mobile */
+    padding: 1rem; /* Ajusta o padding */
     border-radius: 8px;
-    font-size: 1.5rem;
-    font-weight: 600;
-    padding: 21.5px 0;
+    font-size: 1rem;  /* Menor tamanho de fonte para mobile */
     text-decoration: none;
     color: var(--cor-secundaria);
-    font-family: var(--fonte-secundaria);
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave */
 }
-.apresentacao__links__link:hover{
+
+
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover);
 }
-.apresentacao__imagem{
-    width: 50%;
-}
-.rodape{
-    color: var(--cor-primaria);
-    background-color: var(--cor-terciaria);
-    padding: 24px;
-    text-align: center;
-    font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
-    font-weight: 400;
+
+
+.apresentacao__imagem {
+    width: 100%; /* Ocupa toda a largura disponível em mobile */
+    max-width: 300px; /* Define uma largura máxima para a imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Impede que a imagem cause um pequeno espaço embaixo */
+    margin: 0 auto; /* Centraliza a imagem */
+
 }
 
-@media (max-width: 1200px) {
-    .cabecalho {
-        padding: 10%;
-    }
 
+
+.rodape {
+  background-color: var(--cor-terciaria);
+  color: var(--cor-primaria);
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem; /* Tamanho da fonte menor para mobile */
+
+}
+
+
+/* Media Queries para telas maiores */
+@media (min-width: 768px) { 
+    /* Tablet */
     .cabecalho__menu {
-        justify-content: center;
-    }
+        flex-direction: row; /* Volta para o layout horizontal */
+        justify-content: flex-start; /* Alinha à esquerda */
+        padding: 2% 0 0 15%;
+        gap: 4rem;
 
+    }
+     .cabecalho__menu__link {
+        font-size: 1.5rem;
+    }
     .apresentacao {
-        flex-direction: column-reverse;
-        padding: 5%;
+        flex-direction: row; /* Volta para o layout horizontal */
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+
+    }
+    .apresentacao__conteudo {
+        width: 50%;
+    }
+    .apresentacao__conteudo__titulo{
+        font-size: 2.25rem;
+        text-align: left;
+
+    }
+    .apresentacao__conteudo__texto{
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    .apresentacao__links__navegacao {
+        width: auto;
+        padding: 1rem;
+
     }
 
-    .apresentacao__conteudo {
-        width: auto;
+    .apresentacao__links__subtitulo{
+        text-align: left;
+        font-size: 1.5rem;
     }
-    
+      .apresentacao__links__navegacao{
+        font-size: 1.2rem;
+    }
+    .apresentacao__imagem {
+        width: 40%;
+        max-width: 500px;
+    }
+    .rodape{
+        font-size: 1.5rem;
+
+    }
+
+    .apresentacao__imagem {
+        width: 45%;
+        max-width: 450px;
+        margin-left: 0;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    /* Desktop */
+
+    .apresentacao__imagem {
+        width: 50%;
+
+    }
+    .apresentacao__links__navegacao {
+        width: 25%;
+        font-size: 1.5rem;
+    }
+
+
+
 }
