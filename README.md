@@ -34,11 +34,11 @@ Objetivo: Organizar o conteúdo de forma que o navegador entenda como exibir na 
 3. Estruturar um Documento HTML com Tags e Elementos 🏗️
 
 O HTML usa tags para estruturar e identificar diferentes partes do conteúdo. Cada tag possui uma função específica. As tags de abertura e fechamento delimitam o conteúdo, como:
-
+~~~
 <html></html>   <!-- Elemento raiz de uma página HTML -->
 <head></head>   <!-- Metadados, como título e links para estilos -->
 <body></body>   <!-- Conteúdo visível na página -->
-
+~~~
 4. A Utilidade da Introdução <!DOCTYPE html> ⚙️
 
 A declaração <!DOCTYPE html> informa ao navegador que o documento é um arquivo HTML5. Isso é fundamental para garantir que a página seja interpretada corretamente de acordo com a versão mais recente do HTML.
@@ -78,9 +78,9 @@ F12 ou Ctrl + Shift + I (Chrome, Firefox e outros navegadores)
 O Quirks Mode ocorre quando o navegador interpreta um documento HTML de maneira não-padrão, afetando o layout e o comportamento da página.
 
 Esse modo geralmente acontece em páginas que não começam com a declaração <!DOCTYPE html>. Para evitar problemas de compatibilidade, sempre inicie o documento com:
-
+~~~
 <!DOCTYPE html>
-
+~~~
 9. Utilizar Extensões no Visual Studio Code (Exemplo: Live Server) 🔌
 
 O Visual Studio Code (VS Code) é uma poderosa IDE. Com a extensão Live Server, você pode visualizar alterações em tempo real no navegador.
