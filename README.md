@@ -55,7 +55,9 @@ Mesmo que o arquivo tenha a extensão .html, essa declaração é essencial para
 
 No HTML, é importante usar o atributo alt para fornecer uma descrição textual de uma imagem. Isso não só ajuda na acessibilidade (para leitores de tela, por exemplo), mas também melhora o SEO da página.
 
+~~~
 <img src="assets/claudeny.png" alt="Professor_claudeny">
+~~~
 
 7. Acessar a Developer Tools (Ferramentas para Desenvolvedores) de um Navegador 🔍
 
