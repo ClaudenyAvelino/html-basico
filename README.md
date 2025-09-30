@@ -104,42 +104,42 @@ Visualização em tempo real de mudanças no HTML e CSS
 Acelera o desenvolvimento e testes
 
 🧪 Exemplo de Estrutura Completa de um Documento HTML5
+<DIV>
+💻 Exemplo de Estrutura HTML com Comentários
 <!-- Informa ao navegador que o documento está usando HTML5 -->
 <!DOCTYPE html>
+
 <!-- Elemento raiz do documento HTML -->
 <html lang="pt-br">
 
-<!-- Seção que contém metadados, título da página e links para arquivos externos (CSS, fontes etc.) -->
+<!-- Cabeçalho do documento: contém metadados e configurações -->
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres para UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibilidade com Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade -->
     
-    <!-- Define o título da aba do navegador -->
-    <title>Portfólio</title>
+    <title>Portfólio</title> <!-- Título da aba do navegador -->
 </head>
 
-<!-- Corpo da página — tudo que aparece visualmente para o usuário -->
+<!-- Corpo do documento: tudo que é exibido ao usuário -->
 <body>
-    <!-- Título de nível 1 (o mais importante) -->
-    <h1>Isso é um título</h1>
+    <h1>Isso é um título</h1> <!-- Título principal da página -->
 
-    <!-- Parágrafo de texto comum -->
-    <p>Isso é um parágrafo</p>
+    <p>Isso é um parágrafo</p> <!-- Texto descritivo ou informativo -->
 
-    <!-- Imagem com descrição alternativa (importante para acessibilidade e SEO) -->
-    <img src="html.png" alt="Logo do HTML 5">
-
-    <!-- Fim do conteúdo visível -->
+    <img src="html.png" alt="Logo do HTML 5"> <!-- Imagem com descrição alternativa -->
 </body>
 
 </html>
 
 
-📌 Observações:
+📌 Esse exemplo mostra:
 
-Esse exemplo mostra a estrutura mínima e funcional de um documento HTML5.
+A estrutura básica de um documento HTML5.
 
-Comentários no HTML são feitos com <!-- comentário aqui --> e não são exibidos no navegador.
+Comentários explicativos dentro do código (que não aparecem no navegador).
 
-O atributo alt na imagem é essencial para acessibilidade e também ajuda com o SEO da página.
+O uso correto do alt em imagens.
+
+Uma base limpa e clara para qualquer página HTML simples.
+</DIV>
