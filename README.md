@@ -147,3 +147,20 @@ O uso correto do alt em imagens.
 
 Uma base limpa e clara para qualquer página HTML simples.
 
+🧱 Estrutura Semântica do HTML5
+~~~
+<body>
+    <header></header> <!-- Cabeçalho da página: logo, navegação, etc. -->
+    <main></main>     <!-- Conteúdo principal da página -->
+    <footer></footer> <!-- Rodapé: contatos, créditos, direitos autorais -->
+</body>
+~~~
+
+📌 Explicação rápida:
+
+<header>: onde normalmente ficam o logotipo, menus ou títulos.
+
+<main>: contém o conteúdo central da página — deve aparecer só uma vez no documento.
+
+<footer>: onde vão os créditos, links de contato ou informações legais.
+
