@@ -104,8 +104,11 @@ Visualização em tempo real de mudanças no HTML e CSS
 Acelera o desenvolvimento e testes
 
 🧪 Exemplo de Estrutura Completa de um Documento HTML5
-<DIV>
+
+
+
 💻 Exemplo de Estrutura HTML com Comentários
+~~~
 <!-- Informa ao navegador que o documento está usando HTML5 -->
 <!DOCTYPE html>
 
@@ -132,6 +135,7 @@ Acelera o desenvolvimento e testes
 
 </html>
 
+~~~
 
 📌 Esse exemplo mostra:
 
@@ -142,4 +146,4 @@ Comentários explicativos dentro do código (que não aparecem no navegador).
 O uso correto do alt em imagens.
 
 Uma base limpa e clara para qualquer página HTML simples.
-</DIV>
+
