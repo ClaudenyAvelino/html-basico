@@ -33,6 +33,8 @@ Objetivo: Organizar o conteúdo de forma que o navegador entenda como exibir na 
 
 3. Estruturar um Documento HTML com Tags e Elementos 🏗️
 
+![Diretório](assets/diretorio.png)
+
 O HTML usa tags para estruturar e identificar diferentes partes do conteúdo. Cada tag possui uma função específica. As tags de abertura e fechamento delimitam o conteúdo, como:
 ~~~
 <html></html>   <!-- Elemento raiz de uma página HTML -->
