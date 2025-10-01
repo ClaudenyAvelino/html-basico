@@ -348,4 +348,122 @@ body {
 * Teste o CSS em diferentes navegadores e resoluções para melhorar responsividade.
 
 
-![Meu Projeto](assets/projeto.png)
+# 🎨 Aula: Google Fonts — Como Usar Fontes Personalizadas no seu Site
+
+## ✅ Objetivo da Aula
+Ensinar como utilizar a biblioteca **Google Fonts** para aplicar diferentes fontes em projetos web com **HTML** e **CSS**.
+
+---
+
+## 📌 O que é o Google Fonts?
+O **Google Fonts** é uma biblioteca gratuita do Google com mais de **1000 fontes tipográficas** de código aberto.  
+Ele permite que você utilize essas fontes facilmente em sites, sistemas ou qualquer projeto web.
+
+- ✅ Licença livre para uso pessoal e comercial  
+- ✅ Compatível com todos os navegadores modernos  
+- ✅ Fácil de integrar via HTML ou CSS  
+
+🔗 [Acesse o site oficial do Google Fonts](https://fonts.google.com)
+
+---
+
+## 🧭 Como Navegar no Google Fonts
+1. Acesse [https://fonts.google.com](https://fonts.google.com)  
+2. Use os filtros para buscar por:  
+   - Categoria (Serif, Sans Serif, Display etc.)  
+   - Estilo (Regular, Italic, Bold...)  
+   - Idioma (incluindo suporte ao português)  
+3. Clique em uma fonte para visualizar os estilos e como incorporá-la no seu projeto.  
+
+---
+
+## 📥 Como Importar Fontes
+
+### 🔗 Via `<link>` no HTML
+```html
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+```
+
+### 🧾 Via `@import` no CSS
+```css
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+```
+
+---
+
+## 🎨 Como Usar a Fonte no CSS
+Aplicar no corpo do texto:
+```css
+body {
+  font-family: 'Roboto', sans-serif;
+}
+```
+
+Aplicar em títulos:
+```css
+h1 {
+  font-family: 'Lobster', cursive;
+}
+```
+
+---
+
+## 💡 Dica de Combinação de Fontes
+Você pode combinar fontes diferentes para título e corpo do texto. Exemplo:
+
+```html
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&display=swap" rel="stylesheet">
+```
+
+```css
+h1 {
+  font-family: 'Lobster', cursive;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+```
+
+---
+
+## 📚 Leitura Recomendada
+📖 [Guia oficial: Primeiros passos com a API Google Fonts](https://developers.google.com/fonts)
+
+---
+
+## 🧪 Atividade Prática
+Crie uma página HTML utilizando **duas fontes do Google Fonts**:
+
+1. Acesse o Google Fonts  
+2. Escolha uma fonte para o título e outra para o parágrafo  
+3. Crie um HTML simples com um `<h1>` e um `<p>`  
+4. Importe as fontes e aplique no CSS  
+
+### 💻 Exemplo de código completo:
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo com Google Fonts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&display=swap" rel="stylesheet">
+  <style>
+    h1 {
+      font-family: 'Lobster', cursive;
+    }
+
+    p {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bem-vindo ao Google Fonts</h1>
+  <p>Este é um exemplo utilizando fontes personalizadas do Google Fonts.</p>
+</body>
+</html>
+```
+
