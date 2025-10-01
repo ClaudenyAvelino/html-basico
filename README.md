@@ -467,3 +467,18 @@ Crie uma página HTML utilizando **duas fontes do Google Fonts**:
 </html>
 ```
 
+🌞 **Bom dia, colegas instrutores!**  
+
+Gostaria de informar que já está disponível o repositório no GitHub com os conteúdos de **HTML Básico** desenvolvidos com a turma **JOVEM TECH T02D 💻**:  
+
+📂 **HTML5 e CSS3 - domine a web do futuro - Autor (Casa do Código)**  
+👉 [Acesse aqui](https://1drv.ms/b/c/c939bce3230fd75c/EVzXDyPjvDkggMkWdwIAAAABp8OywWxNLbS7DM1ERZ7poA?e=ovmMBH)  
+
+---
+
+📚 **Indicação de Leitura**  
+[![Livro de HTML e CSS](https://m.media-amazon.com/images/I/71j4Kk07nqL._AC_UF1000,1000_QL80_.jpg)](https://www.amazon.com.br/HTML-CSS-Projete-construa-sites-Wyke/dp/8576089394)  
+
+*Livro recomendado: "HTML e CSS – Projete e Construa Sites" de Jon Duckett.*  
+
+
