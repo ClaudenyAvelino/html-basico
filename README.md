@@ -475,7 +475,7 @@ Gostaria de informar que já está disponível o repositório no GitHub com os c
 ---
 
 📚 **Indicação de Leitura**  
-[![Livro de HTML e CSS](https://m.media-amazon.com/images/I/71j4Kk07nqL._AC_UF1000,1000_QL80_.jpg)](https://www.amazon.com.br/HTML-CSS-Projete-construa-sites-Wyke/dp/8576089394)  
+[![Livro de HTML e CSS](assets/livro-html-css.png)](https://www.amazon.com.br/HTML-CSS-Projete-construa-sites-Wyke/dp/8576089394)  
 
 *Livro recomendado: "HTML e CSS – Projete e Construa Sites" de Jon Duckett.*  
 
