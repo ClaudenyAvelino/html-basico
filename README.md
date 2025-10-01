@@ -346,3 +346,6 @@ body {
 * Use **Live Server** no VS Code para visualizar alterações em tempo real.
 * Experimente alterar cores, fontes e tamanhos para entender o impacto no layout.
 * Teste o CSS em diferentes navegadores e resoluções para melhorar responsividade.
+
+
+![Meu Projeto](assets/projeto.png)
