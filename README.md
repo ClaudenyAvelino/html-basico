@@ -160,6 +160,33 @@ Permite:
 </html>
 ```
 
+# CSS – Página de Apresentação
+```
+/* Remove margens e paddings padrão de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100vh; /* Altura total da viewport (tela visível) */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo de largura/altura */
+    background-color: #04aa6d; /* Fundo preto */
+    color: #F6F6F6; /* Texto em cinza claro */
+}
+
+/* Container para os links (botões) */
+ main{
+    display: flex; /* Layout em linha */
+    justify-content: space-between; /* Espaço uniforme entre os botões */
+}
+
+```
+
+
+
+
 
 
 # 🎓 Aula de CSS – Página de Apresentação
