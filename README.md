@@ -1,21 +1,10 @@
-<h2>Time</h2>
-
-[<img loading="lazy" src="https://avatars.githubusercontent.com/u/79340989?s=400&u=fcfb57bc9a07b8ce0eeae1195e243bb1cb56f6d8&v=4" width=115><br><sub>Claudeny Avelino</sub>](https://github.com/ClaudenyAvelino)
-
-## 🚀 Tecnologias
-<div>
-  <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
- <!--  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> -->
-</div>
-
-A# 📘 Aula de HTML: Estrutura e Ferramentas 🔧🌐
+# 📘 Aula de HTML: Estrutura e Ferramentas 🔧🌐
 
 Anotações da aula sobre HTML, com foco em estruturação, ferramentas e boas práticas para iniciantes.
 
 ---
 
-## 👨‍🏫 Time
+## 👨‍🏫 Autor
 
 [<img loading="lazy" src="https://avatars.githubusercontent.com/u/79340989?s=400&u=fcfb57bc9a07b8ce0eeae1195e243bb1cb56f6d8&v=4" width=115><br><sub>Claudeny Avelino</sub>](https://github.com/ClaudenyAvelino)
 
@@ -23,9 +12,8 @@ Anotações da aula sobre HTML, com foco em estruturação, ferramentas e boas p
 
 ## 🚀 Tecnologias
 
-![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
-<!-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) -->
+![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-239120?\&style=for-the-badge\&logo=css3\&logoColor=white)
 
 ---
 
@@ -34,20 +22,18 @@ Anotações da aula sobre HTML, com foco em estruturação, ferramentas e boas p
 ### 1. A Importância da Documentação W3Schools 📚
 
 A W3Schools é uma excelente fonte para aprender HTML e outras tecnologias web.
-
 🔗 [Acesse W3Schools](https://www.w3schools.com/)
 
 ---
 
 ### 2. O que é HTML? 🤔
 
-**HTML (HyperText Markup Language)** é uma linguagem de marcação usada para estruturar conteúdo na web.  
-Ela **não executa ações**, apenas organiza elementos como:
+**HTML (HyperText Markup Language)** é uma linguagem de marcação usada para estruturar conteúdo na web. Ela **não executa ações**, apenas organiza elementos como:
 
-- Textos
-- Imagens
-- Links
-- Listas
+* Textos
+* Imagens
+* Links
+* Listas
 
 ---
 
@@ -68,72 +54,91 @@ Ela **não executa ações**, apenas organiza elementos como:
   <img src="html.png" alt="Logo do HTML5">
 </body>
 </html>
-4. A Utilidade da Tag <!DOCTYPE html> ⚙️
-Ela define o documento como HTML5.
-Evita o Quirks Mode, um modo de compatibilidade antiga nos navegadores.
+```
 
-5. Diferença entre <head> e <body> 💡
-<head>: Contém metadados (título da aba, links de estilo, scripts).
+---
 
-<body>: Contém o conteúdo visível da página.
+### 4. A Utilidade da Tag `<!DOCTYPE html>` ⚙️
 
-6. Atributo alt nas Imagens 🖼️
-Melhora a acessibilidade e o SEO do site.
+* Define o documento como HTML5.
+* Evita o **Quirks Mode** (modo de compatibilidade antiga nos navegadores).
 
-html
-Copiar código
+---
+
+### 5. Diferença entre `<head>` e `<body>` 💡
+
+* `<head>`: Contém **metadados** (título da aba, links de estilo, scripts).
+* `<body>`: Contém o **conteúdo visível** da página.
+
+---
+
+### 6. Atributo `alt` nas Imagens 🖼️
+
+Melhora a **acessibilidade** e o **SEO** do site.
+
+```html
 <img src="assets/claudeny.png" alt="Professor Claudeny">
-7. Developer Tools 🔍
+```
+
+---
+
+### 7. Developer Tools 🔍
+
 Ferramentas do navegador para:
 
-Inspecionar HTML/CSS
-
-Depurar erros
-
-Testar alterações em tempo real
+* Inspecionar HTML/CSS
+* Depurar erros
+* Testar alterações em tempo real
 
 Acessos rápidos:
 
-F12
+* `F12`
+* `Ctrl + Shift + I`
 
-Ctrl + Shift + I
+---
 
-8. Quirks Mode 🤖
+### 8. Quirks Mode 🤖
+
 Modo de renderização "antigo".
-Evite sempre iniciando seus documentos com:
+**Evite sempre iniciando seus documentos com:**
 
-html
-Copiar código
+```html
 <!DOCTYPE html>
-9. Extensão Live Server no VS Code 🔌
+```
+
+---
+
+### 9. Extensão Live Server no VS Code 🔌
+
 Permite:
 
-Atualização automática da página no navegador
+* Atualização automática da página no navegador
+* Visualização em tempo real de alterações
 
-Visualização em tempo real de alterações
+**Como instalar:**
 
-Como instalar:
+1. Abrir VS Code
+2. Ir em Extensões (`Ctrl+Shift+X`)
+3. Procurar por *Live Server*
+4. Clicar em **Instalar**
 
-Abrir VS Code
+---
 
-Ir em Extensões (Ctrl+Shift+X)
+### 🧱 Estrutura Semântica do HTML5
 
-Procurar por Live Server
-
-Clicar em Instalar
-
-🧱 Estrutura Semântica do HTML5
-html
-Copiar código
+```html
 <body>
   <header></header> <!-- Cabeçalho -->
   <main></main>     <!-- Conteúdo principal -->
   <footer></footer> <!-- Rodapé -->
 </body>
-✨ Exemplo de Projeto
-html
-Copiar código
-~~~
+```
+
+---
+
+### ✨ Exemplo de Projeto
+
+```html
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -153,4 +158,4 @@ Copiar código
   <footer></footer>
 </body>
 </html>
-~~~
+```
