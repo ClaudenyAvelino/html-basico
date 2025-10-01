@@ -192,6 +192,6 @@ Uma base limpa e clara para qualquer página HTML simples.
 
 ~~
 
-![Diretório](assets/projeto.png)
+![claudeny](assets/projeto.png)
 ~~~
 
