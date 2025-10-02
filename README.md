@@ -494,7 +494,157 @@ Crie uma página HTML utilizando **duas fontes do Google Fonts**:
 </html>
 ```
 
-Gostaria de informar que já está disponível o repositório no GitHub com os conteúdos de **HTML Básico** desenvolvidos com a turma **JOVEM TECH T02D 💻**:  
+# 📘 Aula Completa de HTML: Listas
+
+Esta aula cobre os três principais tipos de listas em HTML, com exemplos, explicações e exercícios para iniciantes.
+
+---
+
+## 📌 O que são listas em HTML?
+
+Listas são estruturas que agrupam itens relacionados para melhorar a organização e apresentação do conteúdo em páginas web.
+
+---
+
+## 🔹 Tipos de Listas
+
+### 1. Lista Não Ordenada (`<ul>`)
+
+Itens com marcadores (bolinhas), sem ordem específica.
+
+#### Exemplo:
+
+```html
+<ul>
+  <li>Maçã</li>
+  <li>Banana</li>
+  <li>Laranja</li>
+</ul>
+```
+
+**Resultado:**
+- Maçã  
+- Banana  
+- Laranja  
+
+---
+
+### 2. Lista Ordenada (`<ol>`)
+
+Itens numerados, com ordem importante.
+
+#### Exemplo:
+
+```html
+<ol>
+  <li>Ligar o forno</li>
+  <li>Preparar a massa</li>
+  <li>Assar o bolo</li>
+</ol>
+```
+
+**Resultado:**
+1. Ligar o forno  
+2. Preparar a massa  
+3. Assar o bolo  
+
+---
+
+### 3. Lista de Definição (`<dl>`)
+
+Termos e definições, usada para glossários.
+
+#### Exemplo:
+
+```html
+<dl>
+  <dt>HTML</dt>
+  <dd>Linguagem para estruturar páginas web.</dd>
+  <dt>CSS</dt>
+  <dd>Folhas de estilo para aparência.</dd>
+</dl>
+```
+
+**Resultado:**
+- **HTML**  
+  Linguagem para estruturar páginas web.  
+- **CSS**  
+  Folhas de estilo para aparência.  
+
+---
+
+## 🎨 Personalização de Listas
+
+Você pode alterar marcadores e numeração com **CSS** ou atributos do HTML.
+
+#### Exemplo:
+
+```html
+<ul style="list-style-type: square;">
+  <li>Marcador quadrado</li>
+  <li>Outro item</li>
+</ul>
+
+<ol type="A">
+  <li>Numeração em letras maiúsculas</li>
+</ol>
+```
+
+---
+
+## 📝 Exemplo Completo de Página HTML com Listas
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Exemplo de Listas</title>
+</head>
+<body>
+
+  <h1>Exemplo de Listas em HTML</h1>
+
+  <h2>Lista Não Ordenada</h2>
+  <ul>
+    <li>Arroz</li>
+    <li>Feijão</li>
+    <li>Leite</li>
+  </ul>
+
+  <h2>Lista Ordenada</h2>
+  <ol>
+    <li>Ferver a água</li>
+    <li>Colocar o pó no coador</li>
+    <li>Passar a água quente</li>
+  </ol>
+
+  <h2>Lista de Definição</h2>
+  <dl>
+    <dt>CPU</dt>
+    <dd>Unidade Central de Processamento</dd>
+    <dt>RAM</dt>
+    <dd>Memória de acesso aleatório</dd>
+  </dl>
+
+</body>
+</html>
+```
+
+---
+
+## 🏋️ Exercícios
+
+1. Crie uma lista não ordenada com seus **três filmes favoritos**.  
+2. Crie uma lista ordenada com **passos para preparar seu prato favorito**.  
+3. Monte um glossário simples com pelo menos **dois termos usando lista de definição**.  
+
+---
+
+## ✅ Conclusão
+
+Listas são essenciais para organizar informações na web, melhorando a **legibilidade** e a **usabilidade** do conteúdo.
+
 
 📂 **HTML5 e CSS3 - domine a web do futuro - Autor (Casa do Código)**  
 👉 [Acesse aqui](https://1drv.ms/b/c/c939bce3230fd75c/EVzXDyPjvDkggMkWdwIAAAABp8OywWxNLbS7DM1ERZ7poA?e=ovmMBH)  
