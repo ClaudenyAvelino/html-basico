@@ -768,6 +768,139 @@ Você pode alterar marcadores e numeração com **CSS** ou atributos do HTML.
 
 Listas são essenciais para organizar informações na web, melhorando a **legibilidade** e a **usabilidade** do conteúdo.
 
+# 📘 Aula: `header`, `main`, `section` e `div` no HTML
+
+Estas tags fazem parte da **estrutura de layout** em HTML. Algumas são **semânticas** (como `header`, `main` e `section`), ou seja, ajudam a dar significado ao conteúdo, enquanto outras são **genéricas** (como `div`), usadas para agrupamento e estilo.
+
+---
+
+## 🧭 `header` – Cabeçalho da página ou seção
+
+- A `<header>` define o **cabeçalho de uma página ou seção**.
+- Pode conter **título**, **logo**, **menu de navegação**, etc.
+- Pode ser usada dentro de `<body>`, `<article>`, `<section>`...
+
+```html
+<header>
+  <h1>Meu Site</h1>
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+```
+
+---
+
+## 🧱 `main` – Conteúdo principal
+
+- A `<main>` contém o conteúdo **principal** da página.  
+- Deve existir apenas **uma tag `<main>`** por página.  
+- Não deve estar dentro de `header`, `footer`, `article` ou `aside`.  
+
+```html
+<main>
+  <h2>Bem-vindo ao nosso site</h2>
+  <p>Aqui você encontra as últimas novidades...</p>
+</main>
+```
+
+---
+
+## 📦 `section` – Seção do documento
+
+- A `<section>` representa uma **seção temática** do conteúdo.  
+- Deve conter um **título** (`<h1>` a `<h6>`) sempre que possível.  
+- Ideal para dividir o conteúdo em partes lógicas dentro do `<main>`.  
+
+```html
+<section>
+  <h2>Sobre Nós</h2>
+  <p>Somos uma empresa focada em inovação...</p>
+</section>
+```
+
+---
+
+## 🔲 `div` – Contêiner genérico
+
+- A `<div>` é usada como um **bloco genérico** para agrupar elementos.  
+- Não tem significado semântico (não diz o tipo de conteúdo).  
+- Muito usada com CSS para **layout** e **estilização**.  
+
+```html
+<div class="caixa">
+  <p>Este parágrafo está dentro de uma div.</p>
+</div>
+```
+
+---
+
+## 🧠 Diferença entre as tags
+
+| **Tag**   | **Tipo**     | **Uso principal**                        |
+|-----------|--------------|-------------------------------------------|
+| `header`  | Semântica    | Cabeçalho de página ou seção             |
+| `main`    | Semântica    | Conteúdo principal da página             |
+| `section` | Semântica    | Bloco com conteúdo relacionado e título  |
+| `div`     | Genérica     | Agrupamento de elementos para layout e estilo |
+
+---
+
+## 📌 Exemplo completo
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo de Estrutura HTML</title>
+</head>
+<body>
+
+  <header>
+    <h1>Meu Portfólio</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <p>Sou desenvolvedor front-end apaixonado por tecnologia.</p>
+    </section>
+
+    <section id="projetos">
+      <h2>Meus Projetos</h2>
+      <div class="projeto">
+        <h3>Projeto 1</h3>
+        <p>Descrição do projeto 1.</p>
+      </div>
+      <div class="projeto">
+        <h3>Projeto 2</h3>
+        <p>Descrição do projeto 2.</p>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
+```
+
+---
+
+## ✅ Conclusão
+
+- Use `header` para criar cabeçalhos com títulos e menus.  
+- Use `main` para destacar o conteúdo principal da página.  
+- Use `section` para organizar o conteúdo em blocos temáticos.  
+- Use `div` para agrupar elementos sem significado semântico.  
+
+
+---
+
 
 📂 **HTML5 e CSS3 - domine a web do futuro - Autor (Casa do Código)**  
 👉 [Acesse aqui](https://1drv.ms/b/c/c939bce3230fd75c/EVzXDyPjvDkggMkWdwIAAAABp8OywWxNLbS7DM1ERZ7poA?e=ovmMBH)  
