@@ -160,6 +160,140 @@ Permite:
 </html>
 ```
 
+# 📘 Aula: Atributos HTML
+
+## ✨ O que são atributos HTML?
+
+Atributos HTML são usados para fornecer **informações adicionais** sobre os elementos HTML.
+
+- Sempre aparecem na **tag de abertura**.
+- São definidos como **pares nome/valor**: `nome="valor"`.
+- Podem ser usados em **quase todos os elementos HTML**.
+
+---
+
+## ✅ Sintaxe
+
+```html
+<tag atributo="valor">Conteúdo</tag>
+```
+
+Exemplo:
+
+```html
+<img src="img_girl.jpg" alt="Menina com jaqueta">
+```
+
+---
+
+## 🔗 Atributo href
+Usado para criar links com a tag `<a>`.
+
+```html
+<a href="https://www.w3schools.com">Visite o W3Schools</a>
+```
+
+---
+
+## 🖼️ Atributo src
+Usado para indicar o caminho da imagem na tag `<img>`.
+
+```html
+<img src="img_girl.jpg">
+```
+
+- `src="https://..."` → URL absoluta (imagem externa)  
+- `src="imagem.jpg"` → URL relativa (imagem local)  
+
+---
+
+## 📏 Atributos width e height
+Definem o tamanho da imagem em pixels.
+
+```html
+<img src="img_girl.jpg" width="500" height="600">
+```
+
+---
+
+## 🆎 Atributo alt
+Texto alternativo para imagens. Exibido se a imagem não carregar.
+
+```html
+<img src="img_girl.jpg" alt="Menina com jaqueta">
+```
+
+👉 Importante para acessibilidade e SEO.  
+
+---
+
+## 🎨 Atributo style
+Aplica estilos CSS diretamente no elemento.
+
+```html
+<p style="color:red;">Este é um parágrafo vermelho.</p>
+```
+
+---
+
+## 🌍 Atributo lang
+Define o idioma da página. Muito usado na tag `<html>`.
+
+```html
+<html lang="pt-BR">
+```
+
+👉 Ajuda motores de busca e leitores de tela.  
+
+---
+
+## 💬 Atributo title
+Exibe um tooltip (dica) ao passar o mouse sobre o elemento.
+
+```html
+<p title="Sou uma dica">Passe o mouse aqui</p>
+```
+
+---
+
+## 📌 Boas práticas
+✔ Use nomes de atributos em minúsculas  
+✔ Sempre coloque os valores entre aspas  
+✔ Use URLs relativas quando possível  
+✔ Use `alt` nas imagens para acessibilidade  
+
+⚠️ Aspas simples ou duplas? Ambas funcionam:
+
+```html
+<p title='John "ShotGun" Nelson'></p>
+<p title="John 'ShotGun' Nelson"></p>
+```
+
+---
+
+## 📋 Tabela Resumo
+
+| **Atributo**   | **Função**                          |
+|----------------|-------------------------------------|
+| href           | Define o destino de um link         |
+| src            | Define o caminho da imagem          |
+| width/height   | Define o tamanho da imagem          |
+| alt            | Texto alternativo da imagem         |
+| style          | Estilização inline                  |
+| lang           | Define o idioma da página           |
+| title          | Texto exibido ao passar o mouse     |
+
+---
+
+## 🧠 Quiz rápido
+Qual das opções abaixo está correta?  
+
+A) `<img src='img_girl.jpg'>`  
+B) `<img src('img_girl.jpg')>`  
+C) `<img src:'img_girl.jpg'>`  
+
+
+
 # CSS – Página de Apresentação
 ```
 /* Remove margens e paddings padrão de todos os elementos */
