@@ -904,6 +904,51 @@ Estas tags fazem parte da **estrutura de layout** em HTML. Algumas são **semân
 ---
 
 
+## 📌 Exemplo Final completo
+---
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="sobre-mim.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculum.html">Currículo</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong
+                    class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
+            <p class="apresentacao__conteudo__texto">Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade
+                em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos
+                conversar?
+            </p>
+            <div class="apresentacao__links">
+                <a class="apresentacao__links__link"  href="https://instagram.com/">Instagram</a>
+                <a class="apresentacao__links__link"  href="https://github.com/">Github</a>
+            </div>
+        </section>
+        <img src="/guia/aulaAleatoria/Imagem.png" alt="Foto da claudeny programando">
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Claudeny avelino.</p>
+    </footer>
+</body>
+
+</html>
+---
+
+
 📂 **HTML5 e CSS3 - domine a web do futuro - Autor (Casa do Código)**  
 👉 [Acesse aqui](https://1drv.ms/b/c/c939bce3230fd75c/EVzXDyPjvDkggMkWdwIAAAABp8OywWxNLbS7DM1ERZ7poA?e=ovmMBH)  
 
