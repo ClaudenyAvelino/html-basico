@@ -1056,7 +1056,7 @@ Acesse aqui
 
 
 📂 **HTML5 e CSS3 - domine a web do futuro - Autor (Casa do Código)**  
-👉 [Acesse aqui](https://1drv.ms/b/c/c939bce3230fd75c/EVzXDyPjvDkggMkWdwIAAAABp8OywWxNLbS7DM1ERZ7poA?e=ovmMBH)  
+[![Acesse aqui](/assets/html-livro.png)](https://1drv.ms/b/c/c939bce3230fd75c/EVzXDyPjvDkggMkWdwIAAAABp8OywWxNLbS7DM1ERZ7poA?e=ovmMBH)  
 
 ---
 
