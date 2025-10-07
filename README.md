@@ -1046,7 +1046,7 @@ body {
 
 ---
 📚 **Atividade HTML e CSS**  
-clique na imagem.
+Acesse aqui
 
 [![Formulario](assets/html-css.png)](https://forms.gle/Ku8EgGNLCYigmuAh6)
 ---
