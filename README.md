@@ -1043,6 +1043,13 @@ body {
 
 /*Variáveis CSS*/
 ```
+
+---
+📚 **Atividade HTML e CSS**  
+[![Formulario](assets/html-css.png)](https://forms.gle/Ku8EgGNLCYigmuAh6)
+---
+
+
 ---
 
 
