@@ -1153,6 +1153,79 @@ Acesse aqui
 
 ```
 
+**Projeto final**
+**HTML - curriculu**
+```
+
+```
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="sobre-mim.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculum.html">Currículo</a>
+            <a class="cabecalho__menu__link" href="contato.html">Contato</a>
+            
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Currículo</h1>
+            <p class="apresentacao__conteudo__texto">Olá! Sou Claudeny Avelino, desenvolvedor Front-end com
+                especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas
+                ideias. Vamos conversar?
+            </p>
+            <h2 class="apresentacao__conteudo__titulo">Experiências</h2>
+            <div class="apresentacao__conteudo__titulo">
+                <ul class="apresentacao__conteudo__texto">
+                    <li>
+                        SENAC tal (2020 - 2021) - Analista de Comunicação.
+                    </li>
+                    <li>
+                        MP tal (2019 - 2020) - Analista Desenvolvimento WEB.
+                    </li>
+                </ul>
+            </div>
+
+            <h2 class="apresentacao__conteudo__titulo">Estudos</h2>
+            <div class="apresentacao__conteudo__texto">
+                <ul class="apresentacao__conteudo__texto">
+                    <li>
+                        UNIT tal (2020 - 2021) - Licenciatura
+                    </li>
+                    <li>
+                        IFS tal (2019 - 2020) - Sistema de Informação
+                    </li>
+                    <li>
+                        UFS tal (2019 - 2020) - Enfermagem
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </section>
+        <img src="/guia/aulaAleatoria/Imagem.png" alt="Foto da claudeny programando">
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Claudeny.</p>
+    </footer>
+
+</body>
+
+</html>
+
 
 ---
 
