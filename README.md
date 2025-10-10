@@ -1226,7 +1226,7 @@ Acesse aqui
 ```
 
 **Projeto final**
-**HTML - curriculum**
+**HTML - contato**
 ```
 <!DOCTYPE html>
 <html lang="pt-br">
