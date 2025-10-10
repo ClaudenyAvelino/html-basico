@@ -1275,7 +1275,7 @@ Acesse aqui
 
 ```
 **Projeto final**
-**HTML - contato**
+**HTML - style**
 ```
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 :root {
