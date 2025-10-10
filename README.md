@@ -1154,9 +1154,7 @@ Acesse aqui
 ```
 
 **Projeto final**
-**HTML - curriculu**
-```
-
+**HTML - curriculum**
 ```
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -1225,6 +1223,8 @@ Acesse aqui
 </body>
 
 </html>
+```
+
 
 
 ---
