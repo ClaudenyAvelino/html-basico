@@ -1225,6 +1225,56 @@ Acesse aqui
 </html>
 ```
 
+**Projeto final**
+**HTML - curriculum**
+```
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="sobre-mim.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculum.html">Currículo</a>
+            <a class="cabecalho__menu__link" href="contato.html">Contato</a>
+        
+        </nav>
+    </header>
+
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Contato</h1>
+
+            <form class="formulario-contato">
+                <label for="fname">Primeiro nome:</label><br>
+                <input type="text" id="fname" name="fname" value="Ana"><br>
+                <label for="lname">Sobrenome::</label><br>
+                <input type="text" id="lname" name="lname" value="Maria"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+
+        </section>
+        <img src="/guia/aulaAleatoria/Imagem.png" alt="Foto da claudeny programando">
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Claudeny Avelino.</p>
+    </footer>
+</body>
+
+</html>
+
+```
+
 
 
 ---
