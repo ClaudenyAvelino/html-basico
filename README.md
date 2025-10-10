@@ -1274,6 +1274,152 @@ Acesse aqui
 </html>
 
 ```
+**Projeto final**
+**HTML - contato**
+```
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+   /* background-color: #000000;*/
+    background-color: var(--cor-primaria);
+    color: #F6F6F6;
+}
+
+.titulo-destaque {
+    color: #22D4FD;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 50px;
+}
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+}
+.apresentacao {
+    /* margin:10% 15%; */
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo{
+     width: 615px;
+     display: flex;
+     flex-direction: column;
+     gap: 40px;
+}
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+.apresentacao__conteudo__texto{
+     font-size: 24px;
+     font-family: 'Montserrat', sans-serif;
+}
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+.apresentacao__links__link{
+        background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+.rodape {
+    padding: 24px;
+    color: #000000;
+    background-color: #22D4FD;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+/* Container do formulário */
+.formulario-contato {
+    display: flex;                /* Organiza os elementos com flexbox */
+    flex-direction: column;      /* Em coluna (um abaixo do outro) */
+    gap: 16px;                   /* Espaçamento entre os campos */
+    font-family: var(--font-secundaria);
+    font-size: 18px;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Estilo para campos de texto */
+.formulario-contato input[type="text"] {
+    padding: 12px;                                  /* Espaço interno */
+    border: 2px solid var(--cor-terciaria);         /* Borda azul clara */
+    border-radius: 8px;                             /* Bordas arredondadas */
+    background-color: transparent;                  /* Fundo transparente */
+    color: var(--cor-secundaria);                   /* Cor do texto (branco claro) */
+    font-size: 16px;
+    font-family: var(--font-secundaria);
+}
+
+/* Efeito quando o campo está em foco (clicado) */
+.formulario-contato input[type="text"]:focus {
+    outline: none;
+    border-color: #ffffff;
+    background-color: #1c1c1c;
+}
+
+/* Estilo para o botão de envio */
+.formulario-contato input[type="submit"] {
+    background-color: var(--cor-terciaria);         /* Fundo azul claro */
+    color: var(--cor-primaria);                     /* Texto preto */
+    border: none;                                   /* Sem borda */
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;                                /* Mãozinha ao passar o mouse */
+    transition: background-color 0.3s ease;         /* Transição suave */
+    font-family: var(--font-secundaria);
+}
+
+/* Efeito hover (ao passar o mouse sobre o botão) */
+.formulario-contato input[type="submit"]:hover {
+    background-color: #1ec2e6;                      /* Azul um pouco mais escuro */
+}
+
+
+
+/*Variáveis CSS*/
+
+
+```
 
 
 
